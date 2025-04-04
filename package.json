@@ -1,0 +1,21 @@
+{
+  "name": "grafana-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy for Grafana Cloud",
+  "main": "grafana-proxy.js",
+  "scripts": {
+    "start": "node grafana-proxy.js",
+    "dev": "nodemon grafana-proxy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
